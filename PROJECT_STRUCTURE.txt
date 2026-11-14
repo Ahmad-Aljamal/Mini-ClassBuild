@@ -1,0 +1,24 @@
+Mini-ClassBuild/
+├── app.py
+├── requirements.txt
+├── .env.example
+├── .gitignore
+├── PROJECT_STRUCTURE.txt
+├── README.md
+├── scripts/
+│   ├── run_evaluation.py
+│   └── final_check.py
+├── src/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── evaluation.py
+│   ├── groq_client.py
+│   ├── pdf_rag.py
+│   ├── persistence.py
+│   ├── prompts.py
+│   ├── schemas.py
+│   └── validator.py
+└── tests/
+    ├── test_pdf_rag.py
+    ├── test_schemas.py
+    └── test_stage3_workflow.py
